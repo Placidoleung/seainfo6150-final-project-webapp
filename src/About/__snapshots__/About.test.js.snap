@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About tests render correctly  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="logo"
+      >
+        <a
+          href="/"
+        >
+          BlockNews
+        </a>
+      </div>
+      <ul
+        class="nav"
+      >
+        <li
+          class="item"
+        >
+          <a
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          class="item"
+        >
+          <a
+            href="/contact"
+          >
+            Contact
+          </a>
+        </li>
+        <li
+          class="item"
+        >
+          <a
+            href="/about"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="logo"
+    >
+      <a>
+        About BlockNews
+      </a>
+    </div>
+    <div
+      class="text"
+    >
+      <a>
+        BlockNews is a blockchain news website designed by Penghao Liang.
+      </a>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+
+.content {
+  margin-top: 10px;
+  width: 40%;
+  font-size: large;
+}
+
+@media (max-width: 1300px) {
+  .content {
+    width: 50%;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    width: 70%;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    width: 90%;
+    font-size: small;
+  }
+} 

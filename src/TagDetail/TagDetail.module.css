@@ -1,0 +1,20 @@
+.content {
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.tag{
+    background-color: orange;
+    color: white;
+    width:fit-content;
+    padding: 6px;
+}
+
+@media screen and (max-width: 1200px){
+
+    .content {
+        flex-flow: column;
+    }
+
+}

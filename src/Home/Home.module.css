@@ -1,0 +1,14 @@
+.content {
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1200px){
+
+    .content {
+        flex-flow: column;
+    }
+
+}

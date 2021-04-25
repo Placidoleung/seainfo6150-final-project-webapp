@@ -1,0 +1,16 @@
+.tag{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding:5px;
+    width:fit-content;
+    background-color: orange;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.tag a{
+    color: white;
+    text-decoration: none;
+}

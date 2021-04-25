@@ -1,91 +1,178 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the home component correctly 1`] = `
+exports[`Home tests render correctly  1`] = `
 <div>
-  <div>
-    The home page
-    <h1>
-      I changed this homepage
-    </h1>
-    <img
-      alt="tree frog"
-      src="treefrog.jpg"
-    />
-    <div>
-      <form>
-        <label
-          for="myTextId"
+  <div
+    class="container"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="logo"
+      >
+        <a
+          href="/"
         >
-          Input
-        </label>
-        <input
-          id="myTextId"
-          name="myText"
-          type="text"
-        />
-        <label
-          for="myDropdownId"
+          BlockNews
+        </a>
+      </div>
+      <ul
+        class="nav"
+      >
+        <li
+          class="item"
         >
-          Input
-        </label>
-        <select
-          id="myDropdownId"
-          name="myDropdown"
-        >
-          <option
-            value="foo"
+          <a
+            href="/"
           >
-            Foo
-          </option>
-          <option
-            value="bar"
+            Home
+          </a>
+        </li>
+        <li
+          class="item"
+        >
+          <a
+            href="/contact"
           >
-            Bar
-          </option>
-          <option
-            value="baz"
+            Contact
+          </a>
+        </li>
+        <li
+          class="item"
+        >
+          <a
+            href="/about"
           >
-            Baz
-          </option>
-        </select>
-        <label
-          for="foo-yes"
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="content"
+    >
+      <div
+        class="newsList"
+      >
+        <div
+          class="container"
         >
-          yes
-        </label>
-        <input
-          id="foo-yes"
-          name="foo"
-          type="radio"
-          value="yes"
-        />
-        <label
-          for="foo-no"
+          <div
+            class="container"
+          >
+            <header
+              class="header"
+            >
+              <h2
+                class="title"
+              >
+                <a
+                  class="link"
+                  href="/news/1"
+                >
+                  Bitcoin Miner Manufacturer Ebang Sued for ‘Misleading’ Statements, Financials
+                </a>
+              </h2>
+              <p
+                class="text"
+              >
+                Colin Harper
+                 
+                Apr 21, 2021 at 9:37 a.m. PDT
+              </p>
+              <p
+                class="text"
+              >
+                The lawsuit comes on the heels of a research report that highlights the allegedly misleading business practices.
+              </p>
+            </header>
+            <div
+              class="imgContainer"
+            >
+              <img
+                alt="Justice"
+                class="img"
+                src="https://static.coindesk.com/wp-content/uploads/2021/04/bill-oxford-OXGhu60NwxU-unsplash-1-710x458.jpg"
+              />
+            </div>
+            <hr />
+          </div>
+          <div
+            class="container"
+          >
+            <header
+              class="header"
+            >
+              <h2
+                class="title"
+              >
+                <a
+                  class="link"
+                  href="/news/2"
+                >
+                  Ether Price Hits New Record High as Analysts Anticipate Supply Drop
+                </a>
+              </h2>
+              <p
+                class="text"
+              >
+                Omkar Godbole
+                 
+                Apr 22, 2021 at 4:48 a.m. PDT
+              </p>
+              <p
+                class="text"
+              >
+                Analysts say ether will become a deflationary asset after the impending EIP 1559 upgrade.
+              </p>
+            </header>
+            <div
+              class="imgContainer"
+            >
+              <img
+                alt="Climbing mountain"
+                class="img"
+                src="https://static.coindesk.com/wp-content/uploads/2017/10/climb-mountain-e1507892061820-710x458.jpg"
+              />
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <div
+        class="tagList"
+      >
+        <div
+          class="container"
         >
-          no
-        </label>
-        <input
-          id="foo-no"
-          name="foo"
-          type="radio"
-          value="no"
-        />
-        <label
-          for="foo-maybe"
-        >
-          maybe
-        </label>
-        <input
-          id="foo-maybe"
-          name="foo"
-          type="radio"
-          value="maybe"
-        />
-        <input
-          type="submit"
-          value="Send it"
-        />
-      </form>
+          <h3>
+            Tags
+          </h3>
+          <div
+            class="list"
+          >
+            <div
+              class="tag"
+            >
+              <a
+                href="/tags/BITCOIN"
+              >
+                BITCOIN
+              </a>
+            </div>
+            <div
+              class="tag"
+            >
+              <a
+                href="/tags/ETHEREUM"
+              >
+                ETHEREUM
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

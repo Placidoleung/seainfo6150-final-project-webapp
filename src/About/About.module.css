@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orelega+One&family=Zen+Dots&display=swap');
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #111;
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Zen Dots', cursive;
+    font-size: xx-large;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text a{
+    font-size: x-large;
+    font-family: 'Orelega One', cursive;
+}

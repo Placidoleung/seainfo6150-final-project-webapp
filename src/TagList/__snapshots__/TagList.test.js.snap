@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagList tests render correctly  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h3>
+      Tags
+    </h3>
+    <div
+      class="list"
+    >
+      <div
+        class="tag"
+      >
+        <a
+          href="/tags/BITCOIN"
+        >
+          BITCOIN
+        </a>
+      </div>
+      <div
+        class="tag"
+      >
+        <a
+          href="/tags/DEFI"
+        >
+          DEFI
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

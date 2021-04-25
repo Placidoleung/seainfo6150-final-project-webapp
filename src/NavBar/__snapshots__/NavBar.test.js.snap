@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar tests render correctly  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="logo"
+    >
+      <a
+        href="/"
+      >
+        BlockNews
+      </a>
+    </div>
+    <ul
+      class="nav"
+    >
+      <li
+        class="item"
+      >
+        <a
+          href="/"
+        >
+          Home
+        </a>
+      </li>
+      <li
+        class="item"
+      >
+        <a
+          href="/contact"
+        >
+          Contact
+        </a>
+      </li>
+      <li
+        class="item"
+      >
+        <a
+          href="/about"
+        >
+          About
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

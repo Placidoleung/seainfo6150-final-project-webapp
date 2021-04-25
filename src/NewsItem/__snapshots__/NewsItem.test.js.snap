@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsItem tests render correctly  1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+    >
+      <h2
+        class="title"
+      >
+        <a
+          class="link"
+          href="/news/1"
+        >
+          Bitcoin Miner Manufacturer Ebang Sued for ‘Misleading’ Statements, Financials
+        </a>
+      </h2>
+      <p
+        class="text"
+      >
+        Colin Harper
+         
+        Apr 21, 2021 at 9:37 a.m. PDT
+      </p>
+      <p
+        class="text"
+      >
+        The lawsuit comes on the heels of a research report that highlights the allegedly misleading business practices.
+      </p>
+    </header>
+    <div
+      class="imgContainer"
+    >
+      <img
+        alt="Justice"
+        class="img"
+        src="https://static.coindesk.com/wp-content/uploads/2021/04/bill-oxford-OXGhu60NwxU-unsplash-1-710x458.jpg"
+      />
+    </div>
+    <hr />
+  </div>
+</div>
+`;

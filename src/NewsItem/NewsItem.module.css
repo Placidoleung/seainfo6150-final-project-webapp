@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orelega+One&display=swap');
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 0px 30px 0px;
+    border-bottom: lightgrey 1px solid;
+}
+
+.header {
+    width: 60%;
+}
+
+.link{
+    color: black;
+    text-decoration:none;
+    font-family: 'Orelega One', cursive;
+    font-size: larger;
+    font-weight: normal;
+}
+.link:hover{
+    text-decoration:underline;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.imgContainer {
+
+}
+
+.img {
+    width: 240px;
+    height: 150px;
+}
+
+@media screen and (max-width: 600px){
+
+    .container {
+        flex-flow: column-reverse;
+    }
+
+}
